@@ -1,0 +1,11 @@
+Card {
+    height: 100% !important;
+    position: fixed;
+   
+}
+
+.pt-3 {
+    background-color:orangered !important;
+    width: 100%;
+color: white;
+}

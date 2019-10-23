@@ -1,0 +1,22 @@
+/* .mt-5 {
+    margin-top: 100px !important;
+    min-height: 100%;
+ 
+  } */
+
+  p {
+
+font-size: 16px;;
+  }
+
+.response1 {
+  color:green;
+}
+
+.response {
+    color: indigo;
+}
+
+.chat {
+  min-height:550px;
+}
