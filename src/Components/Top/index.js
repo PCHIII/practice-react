@@ -1,9 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
+import './top.css';
 
 const Top = (props) => (
 
-  <Navbar fixed="top" bg="light p-3 border-bottom shadow" variant="light">
+  <Navbar className="topbar p-4 border-bottom" bg="secondary" fixed="top" variant="dark">
   <Navbar.Brand href="#home">Navbar</Navbar.Brand>
   <Nav className="mr-auto">
     <Nav.Link href="#home">Home</Nav.Link>

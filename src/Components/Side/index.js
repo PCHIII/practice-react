@@ -7,7 +7,7 @@ import './style.css';
 const Side =(props) => (
 
 
-<Card className='col-2 pr-0 ml-0 pl-0 border-0 text-center mt-3 align-self-center'>
+<Card className='col-2 pr-0 ml-0 pl-0 border-0 text-center mt-4 pt-2'>
 <Card.Title>
 
     <ListGroup className="flush" variant="flush shadow">

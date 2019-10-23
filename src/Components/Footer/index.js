@@ -1,15 +1,12 @@
 import React from 'react';
-// import  Navbar  from 'react-bootstrap/Navbar';
-// import Button from 'react-bootstrap/Button';
-// import Form from 'react-bootstrap/Form';
-// import FormControl from 'react-bootstrap/FormControl'
 import {Navbar, FormControl, InputGroup, Button} from 'react-bootstrap';
+import './footer.css';
 
 
 const Footer = props => (
 
    
-<Navbar fixed="bottom" className="bg-light border-top shadow-lg ">
+<Navbar className="downbar" fixed="bottom" bg="secondary" >
 
 <InputGroup size="lg" className=" p-2 pl-5 pr-5">
     <FormControl className= "bg-white"
