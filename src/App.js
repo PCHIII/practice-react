@@ -14,11 +14,18 @@ function App() {
   return (
 
      
-  <div className="App Container">
+  <div className="App">
      <Top /> 
      
       <CardDeck className="pt-2 mt-5 size mx-auto">
-      <Side /><Chat /><Sideright />
+      <Side>
+        <ul className="channel-list">
+        <li />
+        <li />
+        </ul>
+
+        </Side>
+        <Chat /><Sideright />
 
       
       </CardDeck>

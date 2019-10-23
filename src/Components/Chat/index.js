@@ -6,7 +6,7 @@ import './style.css';
 const Chat = (props) => (
 
 
-    <Card className= 'col-8 p-3 shadow align-self-center chat mx-auto'>
+    <Card className= 'col-8 p-3 chat shadow align-self-center'>
        
       
 <p className='response1'>

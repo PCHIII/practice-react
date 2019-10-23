@@ -6,14 +6,14 @@ import './style.css';
 
 const Sideright =(props) => (
 
-<Card className='col-2 border-0 text-center pl-0 mr-0 pr-0 align-self-center'>
+<Card className='col-2 border-0 text-center pl-0 mr-0 pr-0 mt-3'>
 <Card.Title>
 
     <ListGroup className="flush" variant="flush shadow">
     
-
         <ListGroup.Item className='pt-3 p-4'>MEMBER
         </ListGroup.Item>
+
     <ListGroup.Item action variant="light border-0">
         Primary</ListGroup.Item>
     <ListGroup.Item action variant="light border-0">
