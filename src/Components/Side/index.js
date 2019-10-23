@@ -7,13 +7,13 @@ import './style.css';
 const Side =(props) => (
 
 
-<Card className='col-2 mt-5 ml-0 border-0 text-left align-self-center'>
+<Card className='col-2 pr-0 ml-0 pl-0 border-0 text-center align-self-center'>
 <Card.Title>
 
     <ListGroup className="flush" variant="flush shadow">
     
 
-    <ListGroup.Item className='pt-3 text-center'>CHANNELS
+    <ListGroup.Item className='pt-3 p-4'>CHANNELS
         </ListGroup.Item>
     <ListGroup.Item action variant="light border-0">
         Primary</ListGroup.Item>
@@ -21,7 +21,7 @@ const Side =(props) => (
       Secondary
     </ListGroup.Item>
 
-    <ListGroup.Item action variant="light border-0 border-0">
+    <ListGroup.Item action variant="light border-0">
       Success
     </ListGroup.Item>
     <ListGroup.Item action variant="light border-0">
@@ -36,18 +36,7 @@ const Side =(props) => (
     <ListGroup.Item action variant="light border-0">
       Light
     </ListGroup.Item>
-    <ListGroup.Item  variant="light border-0">
-      
-    </ListGroup.Item>
-    <ListGroup.Item  variant="light border-0">
-      
-    </ListGroup.Item>
-    <ListGroup.Item  variant="light border-0">
-      
-    </ListGroup.Item>
-    <ListGroup.Item variant="light border-0">
-      
-    </ListGroup.Item>
+    
    
    
   </ListGroup>

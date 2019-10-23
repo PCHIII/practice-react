@@ -1,27 +1,20 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav'
-import  Navbar  from 'react-bootstrap/Navbar';
+import { Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap'
 
 const Top = (props) => (
 
-
-<Navbar fixed="top"  bg="white p-3 justify-items-center border-bottom shadow-sm" variant="light">
- <Nav defaultActiveKey="/home" as="ul">
-   
- <Nav.Item as="li" className='pr-5'>
-  <Nav.Link href="/home">APP NAME</Nav.Link>
-</Nav.Item>
-
-<Nav.Item as="li" className='pr-5'>
-    <Nav.Link eventKey="link-1">Link</Nav.Link>
-  </Nav.Item>
-  <Nav.Item as="li">
-   <Nav.Link eventKey="link-2">Link</Nav.Link>
- </Nav.Item>
-
-</Nav>
+  <Navbar fixed="top" bg="light" variant="light">
+  <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+  <Nav className="mr-auto">
+    <Nav.Link href="#home">Home</Nav.Link>
+    <Nav.Link href="#features">Features</Nav.Link>
+    <Nav.Link href="#pricing">Pricing</Nav.Link>
+  </Nav>
+  <Form inline>
+    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+    <Button variant="outline-primary">Search</Button>
+  </Form>
 </Navbar>
-
 )
 
 export default Top;

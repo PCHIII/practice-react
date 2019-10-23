@@ -1,8 +1,11 @@
-/* .App {
-  text-align: center;
+/* .App, body, html {
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+ 
 } */
 
-.App-logo {
+/* .App-logo {
   height: 20vmin;
 }
 
@@ -13,11 +16,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center; */
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #09d3ac;
-}
+} */ */
 
+.size {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}

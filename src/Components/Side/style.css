@@ -1,11 +1,10 @@
-.flush{
-    /* height: 100% !important;
-    position: fixed; */
-    min-height: 700px;
-}
+/* .flush{
+   
+    min-height: 400px;
+} */
 
 .pt-3 {
-    background-color:orangered !important;
+    background-color:lightskyblue !important;
     width: 100%;
     color: white;
 }

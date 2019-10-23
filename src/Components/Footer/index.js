@@ -9,10 +9,10 @@ import {Navbar, FormControl, InputGroup, Button} from 'react-bootstrap';
 const Footer = props => (
 
    
-<Navbar fixed="bottom" className="bg-white border-top shadow-lg" variant="light">
+<Navbar fixed="bottom" className="bg-light border-top shadow-lg ">
 
-<InputGroup className="mb-0 p-2 pl-5 pr-5">
-    <FormControl className= "bg-light"
+<InputGroup size="lg" className=" p-2 pl-5 pr-5">
+    <FormControl className= "bg-white"
       placeholder=""
       aria-label="Enter Chat Message"
       aria-describedby="basic-addon2"
