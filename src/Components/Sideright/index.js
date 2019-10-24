@@ -2,16 +2,16 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Card from 'react-bootstrap/Card'
-import './style.css';
+import './sideright.css';
 
 const Sideright =(props) => (
 
-<Card className='col-2 border-0 text-center pl-0 mr-0 pr-0 mt-4 pt-2'>
+<Card className='col-1 border-0 text-center pl-0 mr-0 pr-0 mt-4 pt-2 'bg="dark">
 <Card.Title>
 
-    <ListGroup className="flush" variant="flush shadow">
+    <ListGroup className="flush" variant="flush border-left">
     
-        <ListGroup.Item className='pt-3 p-4'>MEMBER
+        <ListGroup.Item className='pt-3 p-4 list'>MEMBER
         </ListGroup.Item>
 
     <ListGroup.Item action variant="light border-0">

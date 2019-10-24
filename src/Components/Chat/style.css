@@ -18,5 +18,8 @@ font-size: 16px;;
 }
 
 .chat {
-  min-height:700px;
+  /* min-height:700px; */
+  max-height: 750px; 
+  overflow-y: auto;
+  height:90vh
 }

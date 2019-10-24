@@ -6,16 +6,16 @@ import './footer.css';
 const Footer = props => (
 
    
-<Navbar className="downbar" fixed="bottom" bg="secondary" >
+<Navbar className="downbar" fixed="bottom" bg="dark" >
 
 <InputGroup size="lg" className=" p-2 pl-5 pr-5">
     <FormControl className= "bg-white"
-      placeholder=""
+      placeholder= ''
       aria-label="Enter Chat Message"
       aria-describedby="basic-addon2"
     />
     <InputGroup.Append>
-      <Button variant="secondary border pl-5 pr-5">Send</Button>
+      <Button variant="light border pl-5 pr-5">Send</Button>
     </InputGroup.Append>
   </InputGroup>
  

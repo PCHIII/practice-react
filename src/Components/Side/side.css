@@ -3,9 +3,9 @@
     height:90vh
 } 
 
-.pt-3 {
+.channel {
     background-color:lightskyblue !important;
-   
+    color: white;
     border-width: 5px;
     border-color: slategray;
     width: 100%;

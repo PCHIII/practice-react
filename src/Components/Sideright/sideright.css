@@ -4,13 +4,16 @@
    
 } */
 
-.pt-3 {
+.list {
     background-color:lightskyblue !important;
     width: 100%;
 color: white;
+border-width: 5px;
+    border-color: slategray;
+    
 }
 
-.flush{
-    
+.flush {
+    height:90vh
     /* min-height: 400px; */
 }

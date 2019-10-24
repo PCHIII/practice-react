@@ -2,18 +2,18 @@
 import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup'
 import Card from 'react-bootstrap/Card'
-import './style.css';
+import './side.css';
 
 const Side =(props) => (
 
 
-<Card className='col-2 pr-0 ml-0 pl-0 border-0 text-center mt-4 pt-2'>
+<Card className='col-1 pr-0 ml-0 pl-0 border-0 text-center mt-4 pt-2'>
 <Card.Title>
 
-    <ListGroup className="flush" variant="flush shadow">
+    <ListGroup className="flush" variant="flush border-right">
     
 
-    <ListGroup.Item className='pt-3 p-4'>CHANNELS
+    <ListGroup.Item className='pt-3 p-4 channel'>CHANNELS
         </ListGroup.Item>
     <ListGroup.Item action variant="light border-0">
         Primary</ListGroup.Item>
